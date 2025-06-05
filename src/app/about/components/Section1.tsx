@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card'; // Requires shadcn/ui setup
-import { Button } from '@/components/ui/button';
+
 const Section1 = () => {
   return (
     <section className="relative py-12 bg-gray-50">

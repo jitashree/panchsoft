@@ -10,8 +10,8 @@ const Section3 = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-gray-800">Milestone Achievements</h3>
             <p className="text-gray-600">
-              Over the past year, we've successfully launched 30+ projects, expanded into 3 new markets, and grown our team by 50%.
-            </p>
+  Over the past year, we&apos;ve successfully launched 30+ projects, expanded into 3 new markets, and grown our team by 50%.
+</p>
             <ul className="list-disc list-inside text-gray-700">
               <li>30+ Projects Delivered</li>
               <li>Global Expansion</li>

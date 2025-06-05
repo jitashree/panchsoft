@@ -1,5 +1,5 @@
 import Banner from "./component/Banner";
-import Image from "next/image";
+
 import Section1 from "./component/Section1";
 import Section2 from "./component/Section2";
 import Section3 from "./component/Section3";

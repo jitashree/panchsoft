@@ -14,7 +14,7 @@ export const Card = ({ className, children, ...props }: CardProps) => {
         className
       )}
       {...props}
-    >
+  >
       {children}
     </div>
   );

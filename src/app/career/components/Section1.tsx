@@ -6,7 +6,7 @@ export default function Section1() {
       <div className="container mx-auto px-4 text-center space-y-6">
         <h2 className="text-4xl font-bold text-gray-800">Build Your Career With Us</h2>
         <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-          At our company, we believe in empowering individuals to grow, innovate, and make meaningful contributions. Whether you're starting out or leveling up, we have a place for you.
+          At our company, we believe in empowering individuals to grow, innovate, and make meaningful contributions. Whether you&apos;re starting out or leveling up, we have a place for you.
         </p>
         <div className="flex justify-center gap-4 flex-wrap">
           <div className="bg-gray-100 rounded-xl p-6 w-full sm:w-64 shadow-md">
