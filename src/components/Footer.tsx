@@ -3,7 +3,8 @@
 import React from 'react';
 // import { Facebook, Twitter, Mail, Linkedin } from 'react';
 
-      import Link from 'next/link'; 
+      import Link from 'next/link';
+
 
 const Footer = () => {
   return (
@@ -35,18 +36,19 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Quick Links */}
-// Add at the top
 
-// Inside JSX:
-<ul className="space-y-2 text-sm text-gray-300">
-  <li><Link href="/" className="hover:underline">Home</Link></li>
-  <li><Link href="/about" className="hover:underline">About</Link></li>
-  <li><Link href="/services" className="hover:underline">Services</Link></li>
-  <li><Link href="/career" className="hover:underline">Career</Link></li>
-  <li><Link href="/achievements" className="hover:underline">Achievements</Link></li>
-  <li><Link href="/contact" className="hover:underline">Contact</Link></li>
-</ul>
+<div>
+  <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
+  <ul className="space-y-2 text-sm text-gray-300">
+    <li><Link href="/" className="hover:underline">Home</Link></li>
+    <li><Link href="/about" className="hover:underline">About</Link></li>
+    <li><Link href="/services" className="hover:underline">Services</Link></li>
+    <li><Link href="/career" className="hover:underline">Career</Link></li>
+    <li><Link href="/achievements" className="hover:underline">Achievements</Link></li>
+    <li><Link href="/contact" className="hover:underline">Contact</Link></li>
+  </ul>
+</div>
+
 
 
         {/* Google Map */}

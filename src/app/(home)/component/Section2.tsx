@@ -15,9 +15,10 @@ const Section2 = () => {
       <div className="relative z-20 max-w-4xl text-white">
         <p className="text-blue-400 text-lg mb-2">We are Perfect Solution</p>
         <h1 className="text-3xl md:text-4xl font-bold mb-4">OUR SUCCESS STORY</h1>
-        <p className="text-sm md:text-base leading-relaxed">
-          Since 2022, we've excelled in India's competitive exam sector, offering comprehensive infrastructure and skilled personnel. Our services now encompass security solutions, biometric authentication, and technical support. We're OMR exam pioneers with a nationwide network and advanced features like live CCTV and signal jamming. We prioritize safety during the pandemic with COVID-19 kits and venue sanitization. Proudly supporting government competitive exams, we've helped countless candidates succeed.
-        </p>
+       <p className="text-sm md:text-base leading-relaxed">
+  Since 2022, we&apos;ve excelled in India&apos;s competitive exam sector, offering comprehensive infrastructure and skilled personnel. Our services now encompass security solutions, biometric authentication, and technical support. We&apos;re OMR exam pioneers with a nationwide network and advanced features like live CCTV and signal jamming. We prioritize safety during the pandemic with COVID-19 kits and venue sanitization. Proudly supporting government competitive exams, we&apos;ve helped countless candidates succeed.
+</p>
+
       </div>
     </section>
   );

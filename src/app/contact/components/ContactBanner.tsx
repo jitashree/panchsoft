@@ -1,14 +1,19 @@
-import React from 'react'
+'use client';
+
+import React from 'react';
+import Image from 'next/image'; // ✅ Import Image
 
 const ContactBanner = () => {
   return (
     <section className="relative w-full h-[60vh] flex items-center justify-center text-white">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img
-          src="/contact.avif" // 🔁 Replace with your image path
+        <Image
+          src="/contact.avif"
           alt="Contact Banner"
-          className="w-full h-full object-cover object-center"
+          fill
+          priority
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-black/50" />
       </div>
@@ -21,7 +26,7 @@ const ContactBanner = () => {
         </p>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ContactBanner
+export default ContactBanner;

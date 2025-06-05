@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React from 'react';
 
 const Section1 = () => {
@@ -9,7 +10,7 @@ const Section1 = () => {
         
         {/* Image Section */}
         <div className="w-full md:w-1/2">
-          <img
+          <Image
             src="/our-vision.webp" // Place your image in /public/images/
             alt="Bookshelf"
             className="w-full h-auto rounded-2xl shadow-lg object-cover"
